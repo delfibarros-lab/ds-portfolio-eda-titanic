@@ -1,22 +1,22 @@
-# 🚢 Análisis Exploratorio de Datos (EDA) - Titanic Dataset
+# 🚢 Exploratory Data Analysis (EDA) - Titanic Dataset
 
-## 📋 Contexto y Objetivo
-Este proyecto forma parte de mi portafolio de Data Science. Consiste en un Análisis Exploratorio de Datos (EDA) exhaustivo sobre el clásico dataset del Titanic. 
-El objetivo principal no es crear un modelo predictivo todavía, sino demostrar dominio en la manipulación de datos: entender las distribuciones, limpiar valores nulos, detectar patrones de supervivencia y generar *insights* visuales claros.
+## 📋 Context & Objective
+This project is part of my Data Science portfolio. It consists of a comprehensive Exploratory Data Analysis (EDA) on the classic Titanic dataset. 
+The main objective is not to create a predictive model just yet, but to demonstrate proficiency in data manipulation: understanding distributions, handling missing values, detecting survival patterns, and generating clear visual insights.
 
-## 🛠️ Herramientas Utilizadas
-- **Lenguaje:** Python
-- **Manipulación de Datos:** Pandas, NumPy
-- **Visualización:** Seaborn, Matplotlib
-- **Entorno:** Google Colab / Jupyter Notebook
+## 🛠️ Tools Used
+- **Language:** Python
+- **Data Manipulation:** Pandas, NumPy
+- **Data Visualization:** Seaborn, Matplotlib
+- **Environment:** Google Colab / Jupyter Notebook
 
-## 🚀 Metodología Aplicada
-1. **Data Wrangling:** Identificación y tratamiento de valores nulos (ej. imputación de la Edad mediante la mediana).
-2. **Análisis Univariado:** Entender la distribución de las variables individuales (tarifas, edades, clases).
-3. **Análisis Bivariado:** Relacionar variables independientes con la variable objetivo (`Survived`).
-4. **Correlaciones:** Análisis de variables numéricas para evitar multicolinealidad en futuros modelos.
+## 🚀 Methodology Applied
+1. **Data Wrangling:** Identification and treatment of missing values (e.g., imputing missing `Age` values using the median).
+2. **Univariate Analysis:** Understanding the distribution of individual features (fares, ages, passenger classes).
+3. **Bivariate Analysis:** Exploring the relationship between independent variables and the target variable (`Survived`).
+4. **Correlation Analysis:** Evaluating numerical variables to prevent multicollinearity in future modeling phases.
 
-## 💡 Conclusiones Ejecutivas
-- **Género:** Las mujeres tuvieron una tasa de supervivencia significativamente mayor (aprox. 74% vs 19% en hombres).
-- **Estatus Socioeconómico:** Los pasajeros de 1ra clase (Pclass 1) tuvieron mayor prioridad de rescate.
-- **Edad:** Los niños (menores de 10 años) muestran un pico de supervivencia, indicando que se respetó el protocolo "mujeres y niños primero".
+## 💡 Executive Conclusions
+- **Gender:** Women had a significantly higher survival rate (approx. 74% vs. 19% for men).
+- **Socioeconomic Status:** First-class passengers (Pclass 1) were given higher priority during the rescue operations.
+- **Age:** Children (under 10 years old) show a distinct spike in survival rates, indicating that the "women and children first" maritime protocol was largely observed.
